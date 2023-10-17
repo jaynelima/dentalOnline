@@ -13,7 +13,7 @@ if (mysqli_num_rows($resultado) > 0) {
         echo "
         <input type='radio' class='btn-check' name='horario' id='horario" . $linha['numero'] . "'
          value='" . $linha['numero'] . "'>
-        <label class='btn btn-outline-success' for='horario" . $linha['numero'] . "'>" 
+        <label class='btn btn-outline-info'' for='horario" . $linha['numero'] . "'>" 
         . $linha['descricao'] . "</label>
         ";
     }

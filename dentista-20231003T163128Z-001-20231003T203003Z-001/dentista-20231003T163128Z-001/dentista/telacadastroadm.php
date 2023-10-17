@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <div class="login">
-            <form method="post" action="cadastroadm.php"><br><br>
+            <form method="post" action="cadastroadm.php">
                 <h1>Tela Administrador</h1>
                 <div class="form-group">
                     <label for="email">E-mail:</label>
@@ -23,7 +23,7 @@
                 <div class="form-group">
                     <label for="senha">Senha:</label>
                     <div class="input-group">
-                        <input id="senha" name="senha" type="password" required="required" class="form-control">
+                        <input id="senha" name="senha" type="password"  placeholder="Informe sua senha" required="required" class="form-control">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                <i class="fa fa-eye-slash" id="olho"></i>
@@ -32,7 +32,7 @@
                     </div>
                 </div><br>
                 <div class="form-group">
-                    <button  name="submit" type="submit" class="btn btn-primary">Entrar</button>
+                    <button  name="submit" type="submit" class="btn btn-outline-info">Entrar</button>
                 </div>
             </form>
 
