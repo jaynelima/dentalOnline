@@ -93,7 +93,7 @@
         </div>
       </div>
       <div class="form-group">
-        <button name="submit" type="submit" class="btn btn-primary">Agendar Horário</button>
+        <button name="submit" type="submit" class="btn btn-outline-info">Agendar Horário</button>
       </div>
     </form>
   </div>

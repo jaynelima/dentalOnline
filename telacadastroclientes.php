@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="form-group text-center">
-                <button name="submit" type="submit" class="btn btn-primary">Cadastrar</button>
+                <button name="submit" type="submit" class="btn btn-outline-info">Cadastrar</button>
             </div>
         </form>
         </div>

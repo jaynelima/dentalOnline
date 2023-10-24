@@ -14,7 +14,7 @@
     <div class="container">
         <div class="login">
             <form method="post" action="cadastroadm.php">
-                <h1>Tela Administrador</h1>
+                <h1> Administrador</h1>
                 <div class="form-group">
                     <label for="email">E-mail:</label>
                     <input id="email" name="email" placeholder="Informe seu e-mail" type="email" required="required"

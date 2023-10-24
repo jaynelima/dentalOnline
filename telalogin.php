@@ -15,7 +15,7 @@
         <div class="login">
             <form method="post" action="login.php">
                 <div class="container">
-                <h1>Tela de Login</h1>
+                <h1> Login</h1>
                 <div class="form-group">
                     <label for="email">E-mail:</label>
                     <input id="email" name="email" placeholder="Informe seu e-mail" type="email" required="required"
