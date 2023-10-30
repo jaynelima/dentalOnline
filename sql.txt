@@ -34,9 +34,15 @@ create table tbagendas(
 );
 
 insert into tbservicos VALUES
-(null,"Orçamento",50),
-(null,"Limpeza",150),
-(null,"Obturação",200);
+(null,"Atendimento infantil",00),
+(null,"Avaliação inicial",00),
+(null,"Clareamento caseiro e de consultório",00),
+(null,"Facetas",00),
+(null,"Limpeza completa (jato de ultrassom + aplicação de flúor)",00),
+(null,"Raspagem",00),
+(null,"Restaurações",00);
+
+
 
 insert into tbhorarios VALUES
 (null,"9H - 9H30"),
@@ -49,4 +55,7 @@ insert into tbhorarios VALUES
 (null,"14H - 14H30"),
 (null,"14H30 - 15H"),
 (null,"15H - 15H30"),
-(null,"15H30 - 16H");
+(null,"15H30 - 16H"),
+(null,"16H - 16H30"),
+(null,"16H30 - 17H"),
+(null,"17H - 18H");
