@@ -33,7 +33,7 @@
                 
                 <li><a href="telaagendamento.php">AGENDA</a></li>
 
-                <li><a href="index.html">SAIR</a></li>
+                <li><a href="logout.php">SAIR</a></li>
             </ul>
         </nav>
     

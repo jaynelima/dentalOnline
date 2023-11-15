@@ -64,6 +64,9 @@
       <div class="form-group">
         <button name="submit" type="submit" class="btn btn-outline-info">Agendar Horário</button>
       </div>
+      <div class="form-group">
+      <a href="logout.php"><button name="sair" type="button" class="btn btn-danger">Sair</button></a>
+      </div>
     </form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

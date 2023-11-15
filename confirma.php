@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10; URL='telaagendamentopaciente.php'"/>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title></title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Seu agendamento foi concluído com sucesso!</h1>
+        
+            <?php
+                session_start();
+                if(isset($_SESSION['administrador'])){
+                    echo '
+                    <a href="telaadm.php" class="login">
+                    <button name="submit" type="submit" class="btn btn-outline-info">Voltar</button>
+                    </a>
+                    ';
+                }else if(isset($_SESSION['paciente'])){
+                    echo '
+                    <a href="telaagendamentopaciente.php" class="login">
+                    <button name="submit" type="submit" class="btn btn-outline-info">Voltar</button>
+                    </a>
+                    ';
+                }
+            ?>
+        
+    </div>
+
+</body>
+</html>

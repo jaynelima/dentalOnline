@@ -34,6 +34,7 @@
                 </div>
                 <div class="form-group">
                     <button name="submit" type="submit" class="btn btn-outline-info">Login</button>
+                    <A href="telacadastroadm.php">Cadastre-se aqui</a>
                 </div>
             </form>           
         </div>

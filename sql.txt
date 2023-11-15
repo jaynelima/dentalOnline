@@ -25,7 +25,7 @@ create table tbservicos(
 create table tbagendas(
     data date not null,
     numero_horario int not null,
-    email_cliente varchar(14),
+    email_cliente varchar(100),
     cod_servico int not null,
     constraint primary key(data, numero_horario),
     constraint foreign key(numero_horario) references tbhorarios(numero),
@@ -34,9 +34,13 @@ create table tbagendas(
 );
 
 insert into tbservicos VALUES
-(null,"Orçamento",50),
-(null,"Limpeza",150),
-(null,"Obturação",200);
+(null,"Atendimento infantil",000),
+(null,"Avaliação inicial",000),
+(null,"Clareamento caseiro e de consultório",000),
+(null,"Facetas",000),
+(null,"Limpeza completa (jato de ultrassom + aplicação de flúor)",000),
+(null,"Raspagem",000),
+(null,"Restauração",000);
 
 insert into tbhorarios VALUES
 (null,"9H - 9H30"),
@@ -50,3 +54,4 @@ insert into tbhorarios VALUES
 (null,"14H30 - 15H"),
 (null,"15H - 15H30"),
 (null,"15H30 - 16H");
+
